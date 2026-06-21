@@ -56,7 +56,7 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp loc="(410,220)" name="ALU_toy8"/>
+    <comp loc="(420,180)" name="ALU_toy8"/>
     <comp loc="(430,430)" name="MUX_8bittoy8"/>
     <comp loc="(440,650)" name="De_coder"/>
     <comp loc="(940,600)" name="one_hot_mux"/>
@@ -1675,21 +1675,32 @@
       <a name="appearance" val="NewPins"/>
       <a name="radix" val="10unsigned"/>
     </comp>
-    <comp lib="0" loc="(350,830)" name="Pin">
+    <comp lib="0" loc="(340,850)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="S2"/>
+      <a name="label" val="add"/>
     </comp>
-    <comp lib="0" loc="(350,850)" name="Pin">
+    <comp lib="0" loc="(340,870)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="S1"/>
+      <a name="label" val="bitwisexor"/>
     </comp>
-    <comp lib="0" loc="(350,870)" name="Pin">
+    <comp lib="0" loc="(340,890)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="S0"/>
+      <a name="label" val="bitwiseand"/>
+    </comp>
+    <comp lib="0" loc="(340,910)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="Rshift"/>
+    </comp>
+    <comp lib="0" loc="(340,930)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="Lshift"/>
+    </comp>
+    <comp lib="0" loc="(340,950)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SUB"/>
     </comp>
     <comp loc="(1650,360)" name="one_hot_mux"/>
     <comp loc="(570,500)" name="andgate_8bit"/>
-    <comp loc="(570,830)" name="De_coder"/>
     <comp loc="(580,380)" name="xorgate_8bit"/>
     <comp loc="(580,590)" name="RightShift"/>
     <comp loc="(580,660)" name="LeftShift"/>
@@ -1734,14 +1745,13 @@
     <wire from="(290,730)" to="(370,730)"/>
     <wire from="(340,210)" to="(340,230)"/>
     <wire from="(340,230)" to="(380,230)"/>
-    <wire from="(350,890)" to="(360,890)"/>
+    <wire from="(340,850)" to="(1310,850)"/>
+    <wire from="(340,870)" to="(1320,870)"/>
+    <wire from="(340,890)" to="(1330,890)"/>
+    <wire from="(340,910)" to="(1340,910)"/>
+    <wire from="(340,930)" to="(1350,930)"/>
+    <wire from="(340,950)" to="(1360,950)"/>
     <wire from="(570,500)" to="(860,500)"/>
-    <wire from="(570,850)" to="(1310,850)"/>
-    <wire from="(570,870)" to="(1320,870)"/>
-    <wire from="(570,890)" to="(1330,890)"/>
-    <wire from="(570,910)" to="(1340,910)"/>
-    <wire from="(570,930)" to="(1350,930)"/>
-    <wire from="(570,950)" to="(1360,950)"/>
     <wire from="(580,380)" to="(1430,380)"/>
     <wire from="(580,590)" to="(880,590)"/>
     <wire from="(580,660)" to="(900,660)"/>
@@ -2875,6 +2885,7 @@
     <comp loc="(700,740)" name="Full_SUB"/>
     <comp loc="(700,860)" name="Full_SUB"/>
     <comp loc="(700,990)" name="Full_SUB"/>
+    <wire from="(1160,90)" to="(1160,1080)"/>
     <wire from="(180,370)" to="(190,370)"/>
     <wire from="(180,390)" to="(180,430)"/>
     <wire from="(180,390)" to="(200,390)"/>
@@ -2956,7 +2967,7 @@
     <wire from="(560,820)" to="(560,900)"/>
     <wire from="(560,820)" to="(700,820)"/>
     <wire from="(630,90)" to="(910,90)"/>
-    <wire from="(700,1010)" to="(860,1010)"/>
+    <wire from="(700,1010)" to="(840,1010)"/>
     <wire from="(700,180)" to="(860,180)"/>
     <wire from="(700,200)" to="(700,260)"/>
     <wire from="(700,280)" to="(800,280)"/>
@@ -2981,6 +2992,9 @@
     <wire from="(820,210)" to="(860,210)"/>
     <wire from="(830,220)" to="(830,630)"/>
     <wire from="(830,220)" to="(860,220)"/>
+    <wire from="(840,1010)" to="(840,1080)"/>
+    <wire from="(840,1010)" to="(860,1010)"/>
+    <wire from="(840,1080)" to="(1160,1080)"/>
     <wire from="(840,230)" to="(840,740)"/>
     <wire from="(840,230)" to="(860,230)"/>
     <wire from="(850,240)" to="(850,860)"/>
@@ -2991,6 +3005,7 @@
     <wire from="(90,220)" to="(90,410)"/>
     <wire from="(910,170)" to="(920,170)"/>
     <wire from="(910,90)" to="(910,170)"/>
+    <wire from="(960,90)" to="(1160,90)"/>
   </circuit>
   <circuit name="RightShift">
     <a name="appearance" val="logisim_evolution"/>
