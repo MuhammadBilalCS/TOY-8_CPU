@@ -3,14 +3,14 @@ TOY-8: An educational 8-bit computer created with LogiSim digital circuit simula
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <pre>
-  ╔══════════════════════════════════════════╗
-  ║   ████████╗ ██████╗ ██╗   ██╗    █████╗ ║
-  ║   ╚══██╔══╝██╔═══██╗╚██╗ ██╔╝   ██╔══██╗║
-  ║      ██║   ██║   ██║ ╚████╔╝    ╚█████╔╝║
-  ║      ██║   ██║   ██║  ╚██╔╝     ██╔══██╗║
-  ║      ██║   ╚██████╔╝   ██║      ╚█████╔╝║
-  ║      ╚═╝    ╚═════╝    ╚═╝       ╚════╝ ║
-  ╚══════════════════════════════════════════╝
+  ╔════════════════════════════════╗
+  ║   ████████╗ ██████╗ ██╗   ██╗  ║
+  ║   ╚══██╔══╝██╔═══██╗╚██╗ ██╔╝  ║
+  ║      ██║   ██║   ██║ ╚████╔╝   ║ 
+  ║      ██║   ██║   ██║  ╚██╔╝    ║ 
+  ║      ██║   ╚██████╔╝   ██║     ║ 
+  ║      ╚═╝    ╚═════╝    ╚═╝     ║  
+  ╚════════════════════════════════╝
   
         ╔════════════════════════════╗
         ║   █████████████████████    ║
@@ -19,7 +19,7 @@ TOY-8: An educational 8-bit computer created with LogiSim digital circuit simula
         ╚════════════════════════════╝
 </pre>
 <p align="center">
-  <img src="images/16_BIT_CPU.png" width="700">
+  <img src="images/16_BIT_CPU.png" width="1000">
 </p>
 
 
