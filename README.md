@@ -13,11 +13,14 @@ TOY-8: An educational 8-bit computer created with LogiSim digital circuit simula
   ╚══════════════════════════════════════════╝
   
         ╔════════════════════════════╗
-        ║   █████████████████████   ║
-        ║   █ 8-BIT  █  CPU   █    ║
-        ║   █████████████████████   ║
+        ║   █████████████████████    ║
+        ║   █ 8 and 16-BIT █ CPU█    ║
+        ║   █████████████████████    ║
         ╚════════════════════════════╝
 </pre>
+<p align="center">
+  <img src="images/16_BIT_CPU.png" width="700">
+</p>
 
 
  # Overview
@@ -58,6 +61,23 @@ TOY-8: An educational 8-bit computer created with LogiSim digital circuit simula
 23. *Right-shift circuit*
 24. 1-bit one-hot-mux — AND each function's output with its select line, then OR the results onto one wire
 25, Full Subtractor
+-----------------------------------
+## Milestone 2
+
+DFlipFlop 
+MemoryBit 
+ClockControl
+Register 8bit
+Register 4bit
+Incrementer 4bit
+BusMux2way (2-way 4-bit)
+PC (program counter)
+DecDemux4to16
+OneHotMux 16 way 8 bit
+MemoryBank (8-bit 16-word)
+R_Mux (3-way 8-bit)
+AddrMux (2-way 4-bit)
+Layout (connect all components you've built so far)
 
 
 
