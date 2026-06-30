@@ -1,7 +1,6 @@
-# TOY-8_CPU
-TOY-8: An educational 8-bit computer created with LogiSim digital circuit simulator
-
+<p align="center">
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  </p>
 <pre>
   ╔════════════════════════════════╗
   ║   ████████╗ ██████╗ ██╗   ██╗  ║
