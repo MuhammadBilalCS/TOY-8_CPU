@@ -1,0 +1,26 @@
+public class DFA 
+{ 
+   private int start; 
+   private boolean[] action; 
+   private ST<Character, Integer>[] next; 
+   public DFA(String filename) 
+   {  
+}
+/* Fill in data structures */  } 
+   public boolean recognizes(String input) 
+   { 
+int state = start; 
+      for (int i = 0; i < input.length(); i++) 
+         state = next[state].get(input.charAt(i)); 
+      return action[state]; 
+   } 
+   public static void main(String[] args) 
+   { 
+      DFA dfa = new DFA(args[0]); 
+      while (!StdIn.isEmpty()) 
+      { 
+         input = StdIn.readString(); 
+         if (dfa.recognizes(input)) StdOut.println("Yes"); 
+         else                       StdOut.println("No"); 
+      } 
+   }
